@@ -1,5 +1,9 @@
 // Code your solutions in this file
-function printBadges() {
+function printBadges(name) {
+  for(var i =0; i < name.length; i++) {
+    console.log(`Welcome ${name[i]}! You are employee #${i+1}.`);
+
+  }
 
 }
 
