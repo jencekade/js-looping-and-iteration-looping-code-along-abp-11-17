@@ -10,5 +10,5 @@ function tailsNeverFails() {
     coinFlip = Math.random();
     tails++;
   }
-  return tails;
+  return `You got ${tails}tails in a row!`;
 }
