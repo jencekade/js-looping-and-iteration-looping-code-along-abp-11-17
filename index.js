@@ -4,7 +4,7 @@ function printBadges(name) {
     console.log(`Welcome ${name[i]}! You are employee #${i+1}.`);
 
   }
-
+  return name;
 }
 
 function tailsNeverFails() {
